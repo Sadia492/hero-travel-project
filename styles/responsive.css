@@ -1,0 +1,26 @@
+/* responsive for smaller devices */
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+  }
+  .menu ul {
+    flex-direction: column;
+  }
+  .menu ul li {
+    margin-right: 0px;
+  }
+  .banner-input {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner-input input,
+  .banner-input select {
+    margin-bottom: 30px;
+  }
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+  .banner-content p {
+    width: 100%;
+  }
+}
