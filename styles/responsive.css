@@ -13,14 +13,32 @@
     display: flex;
     flex-direction: column;
   }
+  .banner-input button {
+    width: 100%;
+  }
   .banner-input input,
   .banner-input select {
     margin-bottom: 30px;
+    width: 100%;
   }
   .banner-content h1 {
     font-size: 2rem;
   }
   .banner-content p {
+    width: 100%;
+  }
+  .choose-card-container {
+    grid-template-areas:
+      "card-1 card-1 card-1 card-1"
+      "card-2 card-2 card-2 card-2"
+      "card-3 card-3 card-3 card-3";
+  }
+  .row-1,
+  .row-2,
+  .row-3 {
+    grid-template-columns: 1fr;
+  }
+  .choose .section-description {
     width: 100%;
   }
 }
