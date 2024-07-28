@@ -337,3 +337,38 @@ nav {
 }
 
 /* ------deal section ends here---- */
+/* ------perfect section starts here---- */
+.perfect {
+  gap: 28px;
+}
+.perfect h1 {
+  width: 65%;
+}
+.perfect-video iframe {
+  border-radius: 16px;
+
+  background: linear-gradient(
+    180deg,
+    rgb(19, 19, 24) -31.958%,
+    rgba(19, 19, 24, 0) 100%
+  );
+}
+.perfect ul li {
+  color: rgb(19, 19, 24);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-left: 30px;
+}
+.perfect .section-description {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.perfect .btn-primary {
+  margin-top: 16px;
+}
+/* ------perfect section ends here---- */
