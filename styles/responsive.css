@@ -1,11 +1,20 @@
 /* responsive for smaller devices */
 @media screen and (max-width: 576px) {
   .container {
-    flex-direction: column;
+    /* flex-direction: column; */
   }
-  .menu ul {
-    flex-direction: column;
+  .menu {
+    display: none;
   }
+  .hamburger {
+    display: block;
+  }
+  nav {
+    flex-direction: row;
+  }
+  /* .menu ul {
+    flex-direction: column;
+  } */
   .menu ul li {
     margin-right: 0px;
   }
@@ -61,6 +70,8 @@
     align-items: end;
     padding-top: 150px;
   }
+
+  .popular,
   .perfect,
   .newsletter {
     flex-direction: column;
@@ -101,5 +112,8 @@
     line-height: 20px;
     letter-spacing: 0%;
     text-align: center;
+  }
+  footer .section-description {
+    width: 80%;
   }
 }

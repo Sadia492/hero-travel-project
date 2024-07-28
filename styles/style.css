@@ -40,6 +40,9 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+.hamburger {
+  display: none;
+}
 .logo {
   align-items: center;
 }
@@ -117,12 +120,14 @@ nav {
   align-items: center;
   gap: 53px;
 }
+
 .popular-content p {
   margin-top: 24px;
   margin-bottom: 24px;
 }
 .popular-content ul li {
   margin-bottom: 16px;
+  margin-left: 30px;
 }
 .popular-image {
   width: 100%;
@@ -456,3 +461,45 @@ nav {
   text-align: center;
 }
 /* ------newsletter section ends here---- */
+/* ------footer section starts here---- */
+footer {
+  text-align: center;
+  background-color: #1313180d;
+}
+footer hr {
+  border-color: rgba(19, 19, 24, 0.1);
+  margin-bottom: 50px;
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .section-description {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .logo {
+  justify-content: center;
+  padding-top: 110px;
+}
+footer .logo h1 {
+  font-size: 2rem;
+}
+footer i {
+  margin-right: 32px;
+  margin-bottom: 50px;
+  color: #131318;
+  font-size: 22px;
+}
+.footer-bottom {
+  padding-bottom: 110px;
+  color: rgb(19, 19, 24);
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+/* ------footer section ends here---- */
